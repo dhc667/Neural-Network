@@ -1,6 +1,6 @@
 # Readme
 
-This is a simple python implementation of a neural network, in Network.py
+This is a simple python implementation of a neural network, in Network.py, located in `python_impl/`
 
 The network is generic, one can specify:
 
@@ -15,7 +15,7 @@ We can then train it using stochastic gradient descent: For each epoch, the trai
 1. `data` is expected to be a list of tuples of ndarrays
 2. `test` is expected to have the same type as `data`, it is optional: if supplied, accuracy will be measured after the application of each epoch
 
-The first layer will be expected to have the same length as the first elements of the elements of the `data` and `test` parameters, and the last layer, with the second elements, i.e. the first layer is interpreted as the input layer and the last layer as the output layer.
+The first layer will be expected to have the same length as the first elements of the elements of the `data` and `test` parameters, and the last layer, the same as the second elements, i.e. the first layer is interpreted as the input layer and the last layer as the output layer.
 
 It is recommended to normalize the data to avoid numerical errors.
 
